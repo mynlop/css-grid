@@ -1,0 +1,19 @@
+main{
+	height: 100vh;
+	display: grid;
+	grid-row-gap: 10px;
+	grid-column-gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+	/*grid implicito*/
+	grid-auto-rows: 1fr;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: purple;
+}
